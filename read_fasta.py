@@ -1,4 +1,4 @@
-import sys
+Added documentation import sys
 
 def read_fasta(filename):
     sequence = ''
