@@ -15,4 +15,6 @@ if len(sys.argv) < 2:
     print('Usage:', sys.argv[0], '<sequence.fa>')
     exit(1)
 
+# print message if used incorrectly
+
 print(read_fasta(sys.argv[1]))
